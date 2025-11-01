@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.nav {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 0px;
+    position: sticky;
+    z-index: 2;
+}
+
+.name {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.ic {
+    list-style-type: none;
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+.ic li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.down {
+    text-align: center;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.down a {
+    text-decoration: none;
+    /* background-color: transparent; */
+    color: black;
+    background-color: bisque;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+.down a:hover {
+    background-color: rgb(5, 64, 244);
+    color: white;
+}
+
+.ic li a:hover {
+    color: rgb(139, 0, 246);
+
+}
+
+.headcontet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sundari {
+    height: 20px;
+    width: 120px;
+    background-color: orange;
+    border-radius: 3px;
+    text-align: center;
+
+}
+
+.text {
+    font-weight: bold;
+    font-size: 35px;
+    /* display: inline-block; */
+}
+
+.pdp {
+    padding: 10px;
+}
+
+.catcon img {
+    width: 400px;
+    /* square width */
+    height: 400px;
+    /* square height */
+    overflow: hidden;
+    border-radius: 50%;
+
+
+}
+
+.tbt {
+    width: 230px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 5px; */
+}
+
+.sme {
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.bt1 {
+    width: 65px;
+    height: 30px;
+    background-color: blue;
+}
+
+.bt1:hover {
+    background-color: rgb(98, 131, 159);
+}
+
+.bt2 {
+    width: 140px;
+    height: 30px;
+    background-color: rgb(47, 182, 178);
+    border-radius: 5px;
+
+}
+
+.bt2:hover {
+    background-color: rgb(3, 39, 70);
+}
+
+.downcircle {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 40px;
+    padding-top: 50px;
+}
+
+.downcircle div {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: bisque;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+.downcircle div:hover {
+    background-color: rgb(177, 124, 124);
+}
+
+#ab {
+    padding: 30px;
+
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 40px; */
+    flex: 1;
+}
+
+.intro {
+    width: 600px;
+    border-radius: 20px;
+    background-color: rgb(18, 235, 235);
+    padding: 20px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.dwcv {
+    text-align: right;
+    background-color: blueviolet;
+    border-radius: 4px;
+    height: 30pxpx;
+    width: fit-content;
+    padding: 5px;
+    margin-left: 70%;
+    margin-top: 30px;
+}
+
+#myintro {
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills div {
+    padding: 20px;
+
+}
+
+.skills div span {
+    background-color: rgb(168, 168, 205);
+    border-radius: 3px;
+    height: 20px;
+}
+
+.slilllist {
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.pro_cont {
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 100px;
+}
+
+.projcontiner {
+    padding-bottom: 100px;
+}
+
+.pro_cont div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(226, 226, 226);
+    box-shadow: 1px 1px 7px 2px;
+    border-radius: 10px;
+}
+
+.pro_cont div:hover {
+    background-color: rgb(166, 166, 215);
+}
+
+.projcontiner {
+    height: 500px;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: #3498db;
+    /* default color */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: color 0.4s;
+    color: rgb(9, 6, 6);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* The overlay for hover animation */
+.box::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background: #2ecc71;
+    z-index: 0;
+    transition: height 0.4s ease-in-out;
+}
+
+/* On hover, the color rises up */
+.box:hover::before {
+    height: 100%;
+}
+
+.box span {
+    position: relative;
+    /* so text stays above the overlay */
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box span i {
+    font-size: 40px;
+    color: rgb(92, 92, 139);
+}
+
+/* this is get touh section  */
+.getcontiner {
+    height: 500px;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gettouch {
+    text-align: center;
+    font-size: 30px;
+}
+
+.downtxt {
+    font-size: 20px;
+}
+
+.form div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 270px;
+    border-radius: 10px;
+    color: rgb(9, 6, 6);
+    font-size: 20px;
+
+
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    /* overflow: hidden; */
+    position: relative;
+
+}
+
+
+.interform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.interform input {
+    border-radius: 10px;
+    height: 40px;
+    width: 190px;
+    padding: 5px;
+}
+
+.Message {
+    border-radius: 10px;
+    /* height: 122px;
+    width: 400px; */
+    width: 399px; 
+    height: 185px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #fdfeff;
+    color: black;
+
+}
+
+.ndform {
+    height: 122px;
+    width: 400px;
+}
+
+.stform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    border: 2px solid black;
+    background-color: #badcf3;
+}
+
+.findme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid black;
+    background-color: #badcf3;
+}
+
+.gettouch {
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.downtxt {
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.send {
+    height: 40px;
+    width: 100px;
+    margin-top: 40px;
+    background-color: chocolate;
+    border-radius: 5px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.send:hover{
+    background-color: #3498db;
+}
+
+/* this is footer setion of this project  */
+.fottercont {
+
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.fottercont div p{
+    font-size: 20px;
+}
